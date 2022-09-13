@@ -1,0 +1,187 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Mesita De Luz",
+            "price": 10000,
+            "image": "../IMG/imagen1.jpeg",
+            "category": "Mesa",
+            "description":"Juego de mesas de Luz,realizadas en pino macizo de 18mm,con un estilo Nordico en sus patas.",
+            "medidas": "Medidas: 40x30x60 o a eleccion"
+            
+        },
+        {
+            "id": 2,
+            "title": "Escritorio",
+            "price": 15000,
+            "image": "../IMG/imagen(2).jpeg",
+            "category": "Escritorio",
+            "description":"Escritorio a medida realizado en melamina negra  y haya de 18mm,con cuatro divisiones a pedido del cliente.",
+            "medidas":"Medidas: 120x75x70 o a eleccion"
+        },
+        {
+            "id": 3,
+            "title": "Mueble Para TV",
+            "price": 20000,
+            "image": "../IMG/imagen3.jpeg",
+            "category": "Mueble",
+            "description":"Meza de TV echa de pino y haya de 18mm.",
+            "medidas": "Medidas: 45x40x140 o a eleccion"
+        },
+        {
+            "id": 4,
+            "title": "Mesa De Trabajo",
+            "price": 30000,
+            "image": "../IMG/imagen4.jpeg",
+            "category": "Mesa",
+            "description":"Banco de trabajo reforzado,realizado en pino de 2x4 y doble fenolico de 18mm.",
+            "medidas": "Medidas: 90x80x120 o a eleccion"
+        },
+        {
+            "id": 5,
+            "title": "Mesita De Luz (Melamina)",
+            "price": 13000,
+            "image": "../IMG/imagen6.jpeg",
+            "category": "Mesa",
+            "description":"Juego de mesas de luz realizadas en  melamina  blanca de 18mm,con dos divisoresy estilo nordico en sus patas realizadas en pino.",
+            "medidas": "Medidas: 40x30x60 o a eleccion"
+        },
+        {
+            "id": 6,
+            "title": "Biblioteca De Melamina",
+            "price": 15000,
+            "image": "../IMG/imagen7.jpeg",
+            "category": "Biblioteca",
+            "description":"Biblioteca organizador con5 divisores realizadas en melamina blanco chromix y roble natural nebraska de 18mm.",
+            "medidas": "Medidas: 30x40x120 o a eleccion"
+        },
+        {
+            "id": 7,
+            "title": "Mueble Para TV(melamina)",
+            "price": 25000,
+            "image": "../IMG/imagen8.jpeg",
+            "category": "Mueble",
+            "description":"Mesa de TV realaizada en melamina de 18mm y patas de aluminio regulables de altura para una mayor comodidad.",
+            "medidas": "Medidas: 45x40x140 o a eleccion"
+        },
+        {
+            "id": 8,
+            "title": "Mesita De Luz",
+            "price": 11000,
+            "image": "../IMG/imagen9.jpeg",
+            "category": "Mesa",
+            "description":"Juego de mesas de Luz,realizadas en pino macizo de 18mm,con un estilo Nordico en sus patas.",
+            "medidas": "Medidas: 45x40x140 o a eleccion"
+        },
+        {
+            "id": 9,
+            "title": "Escritorio Tipo Industrial",
+            "price": 20000,
+            "image": "../IMG/imagen10.jpg",
+            "category": "Escritorio",
+            "description":"Escritorio tipo industrial fabricado en  hierro estructural de 15x15 y madera paraiso de 18mm.",
+            "medidas": "Medidas: 70x60x120 o a eleccion"
+        },
+        {
+            "id": 10,
+            "title": "Biblioteca Industrial",
+            "price": 30000,
+            "image": "../IMG/imagen11.jpg",
+            "category": "Biblioteca",
+            "description":"Biblioteca tipo indstrual fabricada enhierro estructural  de 15x15 con 5estantes en nogal.",
+            "medidas": "Medidas: 180x50x100 o a eleccion"
+        },
+        {
+            "id": 11,
+            "title": "Escritorio Estilo Nordico",
+            "price": 30000,
+            "image": "../IMG/imagen12.jpg",
+            "category": "Escritorio",
+            "description":"escritririo tipo nordico realizado en melamina blanca de 18mm con dos cajones y un espacio extra,patas realazadas en pino macizo.",
+            "medidas": "Medidas: 70x60x120 o a eleccion"
+        },
+        {
+            "id": 12,
+            "title": "Mueble multimedia",
+            "price": 17000,
+            "image": "../IMG/imagen13.jpg",
+            "category": "Mueble",
+            "description":"mesa de tv estilo nordico realizado enmelamina blanca 18mm  con patas nordicos de pino  macizo.",
+            "medidas": "Medidas: 50x40x120 o a eleccion"
+        },
+        {
+            "id": 13,
+            "title": "Biblioteca De Aglomerado",
+            "price": 12000,
+            "image": "../IMG/imagen14.jpg",
+            "category": "Biblioteca",
+            "description":"biblioteca con 5 estantes realizado en melamina blanca de 18mm.",
+            "medidas": "Medidas: 180x40x40 o a eleccion"
+        },
+        {
+            "id": 14,
+            "title": "Escritorio Tipo Gamer",
+            "price": 30000,
+            "image": "../IMG/imagen15.jpg",
+            "category": "Escritorio",
+            "description":"Escritorio  tipo gamer realizado en melamina negra de 18mm con espaciopar gabinete y elevacion de monitor.",
+            "medidas": "Medidas: 70x60x120  o a eleccion"
+        },
+        {
+            "id": 15,
+            "title": "exhibidor Mueble (Pino)",
+            "price": 20000,
+            "image": "../IMG/imagen16.jpg",
+            "category": "Mueble",
+            "description":"Estanteria exhibidora con formato de cubo.",
+            "medidas": "Medidas: 80x120x23 o a eleccion"
+        },
+        {
+            "id": 16,
+            "title": "Biblioteca Colonial",
+            "price": 22000,
+            "image": "../IMG/imagen17.jpg",
+            "category": "Biblioteca",
+            "description":"biblioteca tipo colonial realizada en pino alistonado 18mm,con 5 estantes.",
+            "medidas": "Medidas: 170x70x50 o a eleccion"
+        },
+        {
+            "id": 17,
+            "title": "Alacena De melamina",
+            "price": 10500,
+            "image": "../IMG/imagen18.jpg",
+            "category": "Alacena",
+            "description":"alacena realizada en melamina blanca 18mm,con dos puertas.",
+            "medidas": "Medidas: 60x40x100 o a eleccion"
+        },
+        {
+            "id": 18,
+            "title": "Bajo Mesada (Cajonero)",
+            "price": 11000,
+            "image": "../IMG/imagen19.jpg",
+            "category": "Mesada",
+            "description":"cajonera de pino macizo con  4 cajones natural.",
+            "medidas": "Medidas: 70x60x50 o a eleccion"
+
+        },
+        {
+            "id": 19,
+            "title": "Placard De Melamina",
+            "price": 38000,
+            "image": "../IMG/imagen20.jpg",
+            "category": "Placard",
+            "description":"placard de melamina blanca de 18mm,con cajonera,estanteria y perchero.",
+            "medidas": "Medidas: 180x50x150 o a eleccion"
+        },
+        {
+            "id": 20,
+            "title": "Cajonera Interior",
+            "price": 6000,
+            "image": "../IMG/imagen21.jpg",
+            "category": "Placard",
+            "description":"cajonera interior placard realizada en pino macizo con 4 cajones.",
+            "medidas": "Medidas: A eleccion"
+        }
+        
+    ]
+}

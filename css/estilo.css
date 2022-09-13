@@ -1,0 +1,357 @@
+ :root{
+    --black:  #222;
+    --white: #fff;
+    --aqua: #1fb6a94d;
+    --green: #098a098e;
+}
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62%;
+}
+.body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: var(--black);
+    background: url(/IMG/fondo1.jpg);
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+/*NAVEGACION*/
+
+.nav{
+    position: fixed;
+    background-color:rgba(156, 177, 133, 0.486);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.h1{
+    font-size: 40px;
+    text-align: center;
+}
+.nav_lista{
+    display: flex;
+    position: relative;
+    left: 600px;
+}
+.nav_lista span{
+    color: rgb(240, 224, 224)
+}
+.carrito_icono{
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+.carrito_icono i{
+    color: yellow;
+}
+.carrito_icono span{
+    display: inline;
+    cursor: pointer;
+}
+
+/*PRODUCTOS*/
+
+.productos{
+    padding: 5rem 0;
+}
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.418);
+}
+.productos_center{
+    padding: 80px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 3rem 1rem;
+}
+.contenedor_producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen_producto  img{
+    width: 310px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.descripcion_footer{
+    padding: 10px;
+}
+.descripcion_footer h1{
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    font-weight: 500;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.btn{
+    display: inline-block;
+    border: 1px solid var(--white);
+    color: #222;
+    padding: 1rem 1.8rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+/*CARRITO*/
+
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.418);
+    border: 1px solid var(--white);
+    padding: 1rem 1.8rem;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+    background-color: rgba(34, 34, 34, 0.719);
+    visibility:hidden; 
+    z-index: 2;
+}
+.carrito{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(.8);
+    width: 40%;
+    border-radius: 1rem;
+    overflow-x: scroll;
+    height: 80%;
+    background-color: rgba(156, 117, 117, 0.925);
+    padding: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transform: all 300ms ease-in-out;
+}
+.carrito.show{
+    transform: translate(-50%,-50%)scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.overlay.show{
+    visibility: visible;
+}
+.close_carrito{
+    font-size: 40px;
+    color: rgba(92, 99, 91, 0.445);
+    cursor: pointer;
+    transform: all 300ms ease-in-out;
+}
+.close_carrito:hover{
+    color: rgba(255, 0, 0, 0.788);
+}
+.cantidad{
+    margin-left: 135px;
+}
+.cantidad span{
+    color: yellow;
+    font-size: 23px;
+    cursor: pointer;
+}
+.p_cantidad{
+    font-size: 35px;
+    margin-left: 2px;
+}
+.su_carrito{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5rem;
+    font-family: 'Literata', serif;
+}
+.carrito_center{
+    grid-template-columns: 4fr 2fr 1fr 1fr;
+    width: 100%;
+}
+.imagen_producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.remove__item{
+    cursor: pointer;
+    transform: all 300ms ease-in-out;
+    font-size: 30px;
+    color: black;
+}
+.remove__item:hover{
+    color: red;
+}
+.increase{
+    cursor: pointer;
+    color: #222;
+    transform: all 300ms ease-in-out;
+}
+.decrease{
+    cursor: pointer;
+    color: #222;
+    transform: all 300ms ease-in-out;
+}
+.increase:hover{
+    color: yellow;
+}
+.decrease:hover{
+    color: yellow;
+}
+.price{
+    color: rgba(0, 0, 0, 0.767);
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    text-decoration: underline;
+}
+.total{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.clear_carrito{
+    background-color: rgba(207, 88, 88, 0.836);
+    margin-top: 10px;
+}
+.carrito_footer.btns:focus{
+    outline: none;
+}
+
+/*FILTER*/
+
+.filter{
+    margin-top: 100px;
+    padding:  0 2rem;
+    width: 100%;
+}
+.filter.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.category{
+    padding-left: 2px;
+    position: relative;
+    bottom: 4px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px  0px rgb(0, 0, 0.2);
+    display: flex;
+    padding: 0 1rem;
+    height: 30px;
+}
+.category select{
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 17px;
+}
+.div{
+    box-shadow: 0 2px 5px  0px rgba(0,0,0.2);
+}
+.div label{
+    font-size: 20px;
+    color: rgb(194, 126, 126);
+    outline: 0;
+    position: relative;
+    top: 4px;
+}
+.filter input{
+    width: 1000px;
+    height: 22px;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    background: none;
+    border: none;
+}
+
+/*DETALLES*/
+
+.detalles{
+    height: 100vh;
+    text-align: center;
+    padding-top: 15rem;
+}
+.detalle-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 3rem;
+}
+.detalles .img-fluid{
+    max-width: 380px;
+    margin: 5rem auto;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .2);
+    border-style: groove;
+    position: relative;
+    bottom: 20px;
+    right: 25px;
+} 
+.detalles-content{
+    padding: 2rem;
+}
+.detalles-content h3{
+    font-weight: 500;
+    text-decoration: underline;
+    position: relative;
+    bottom: 550px;
+    right: 20px;
+}
+.price_detalles{
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+}
+.description span{
+    position: relative;
+    bottom: 150px;
+}
+.span_dos{
+    top: -130px;
+    right: 18px;
+}
+.bottom_detalles{
+    position: relative;
+    left: -20px;
+    bottom: 60px
+}
+.redireccion{
+    background: none;
+    color: none;
+    font-style: var(--black);
+}
+.h1_detalles{
+    color: #222;
+    font-size: 40px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@1,7..72,300&display=swap" rel="stylesheet">
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link  rel="stylesheet"  href="./css/estilo.css"/>
+    <title>Trabajos a medida!</title>
+  </head>
+  <body class="body">
+    <nav class="nav">
+      <div class="nav_center container">
+        <div class="logo">
+          <h1 class="h1">Cortando Madera </h1>
+        </div>
+        <ul class="nav_lista">
+          <span>
+            <i class="bx bxs-tree"></i>
+          </span>
+          <div class="carrito_icono">
+            
+              <i class="bx bx-cart-add"></i>
+            
+            <span class="item_total">0</span>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    
+    <!--Filter-->
+    <section class="filter">
+      <div class="grid">
+        <div class="category">
+          <select  id="category" onclick="categoryValue() ">
+            <option value="">Filtro</option>
+            <option value="Mesa">Mesa</option>
+            <option value="Escritorio">Escritorio</option>
+            <option value="Mueble">Mueble</option>
+            <option value="Biblioteca">Biblioteca</option>
+            <option value="Alacena">Alacena</option>
+            <option value="Mesada">Mesada</option>
+            <option value="Placard">Placard</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    
+    <!--Productos-->
+    
+    <section  class="Productos">
+      <div class="productos_center">
+        <!--
+        <div class="contenedor_producto">
+          <div class="imagen_producto">
+            <img src="IMG/WhatsApp Image 2022-07-21 at 10.53.09 PM.jpeg" alt="">
+          </div>
+          <div class="descripcion_footer">
+            <h1 class="Nombre">Mesita de luz</h1>
+            <div class="precio_actualizable">$10.000</div>
+          </div>
+          <div class="bottom">
+            <div class="btn_grupo">
+              <a href="#"  class="btn addtocart">Añadir Carrito</a>
+              <a href="productos-detalles.html" class="btn view">Vista</a>
+            </div>
+          </div>   
+        </div>-->
+      </div>
+    </section>
+    
+    <!--Carrito-->
+
+      <section class="overlay  ">
+        <div  class="carrito ">
+          <span class="close_carrito">
+            <i class="bx bx-x"></i>
+          </span>
+          <h1 class="su_carrito">SU CARRITO</h1>
+          
+          <div class="carrito_center">
+            <!--<div class="imagen_producto">
+                  <img src="IMG/WhatsApp Image 2022-07-21 at 10.53.09 PM.jpeg" alt="Mesita de luz">
+                </div>
+                <div>
+                    <h3 class="nombres">Mesita de luz</h3>
+                    <p class="price">$10.000</p>
+                </div>
+                <div class="cantidad">
+                    <span>
+                      <i class="bx bxs-up-arrow"></i> 
+                    </span>
+                    <p class="p_cantidad">1</p>
+                    <span>
+                      <i class="bx bxs-down-arrow"></i> 
+                    </span>
+                </div>
+                <div >
+                    <span class="remove_item">
+                      <i class="bx bx-trash"></i>
+                    </span>
+                </div>  
+            </div>-->
+          </div>
+            <div>
+              <span class="carrito_footer">
+                <h3 class="total">Total: $<span class="carrito_total">0</span></h3>
+                <button class="clear_carrito btn remove_all" onclick="deleteAll()">remover carrito</button>
+              </span>
+            </div>   
+        </div>
+      </section>
+      
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="./Javascript/script.js"></script>
+  </body>
+</html>
+
